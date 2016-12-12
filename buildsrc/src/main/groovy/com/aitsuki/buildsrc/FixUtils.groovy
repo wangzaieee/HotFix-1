@@ -413,7 +413,6 @@ public class FixUtils {
                 String className = getClassName(jarDir, f)
                 String md5 = md5(f)
 
-
                 System.out.print("");
                 // writer == null和generatePatch不能同时为true
                 if (writer != null) {
